@@ -34,3 +34,11 @@ header{
 .personagens{
     width: 100%;
 }
+
+
+.carousel-item .bcakground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
