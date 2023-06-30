@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    z-index: 10;
+}
+
+.sobre{
+    position: relative;
+    height: calc(100vh - 57px);
+    background-image: url(https://cdn.midjourney.com/35e109d4-acfd-4041-88e7-2e64ab0ec003/0_2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sobre div{
+    width: 60%;
+    z-index: 2;
+}
+
+.sobre .bcakground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg,black, transparent);
+    z-index: 1;
+}
+
+.personagens{
+    width: 100%;
+}
